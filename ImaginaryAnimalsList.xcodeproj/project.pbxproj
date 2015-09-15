@@ -18,6 +18,7 @@
 		8292279C1BA7820D004B1064 /* ImaginaryAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8292279B1BA7820D004B1064 /* ImaginaryAnimal.swift */; };
 		8292279E1BA78839004B1064 /* AnimalsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8292279D1BA78839004B1064 /* AnimalsLoader.swift */; };
 		829227A01BA78B4C004B1064 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8292279F1BA78B4C004B1064 /* DetailViewController.swift */; };
+		829227A21BA88E3E004B1064 /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 829227A11BA88E3E004B1064 /* Animals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		8292279B1BA7820D004B1064 /* ImaginaryAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImaginaryAnimal.swift; sourceTree = "<group>"; };
 		8292279D1BA78839004B1064 /* AnimalsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsLoader.swift; sourceTree = "<group>"; };
 		8292279F1BA78B4C004B1064 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		829227A11BA88E3E004B1064 /* Animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Animals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		829227681BA776DA004B1064 /* ImaginaryAnimalsList */ = {
 			isa = PBXGroup;
 			children = (
+				829227A11BA88E3E004B1064 /* Animals.json */,
 				829227691BA776DA004B1064 /* AppDelegate.swift */,
 				8292276B1BA776DA004B1064 /* ViewController.swift */,
 				8292276D1BA776DA004B1064 /* Main.storyboard */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				829227741BA776DA004B1064 /* LaunchScreen.storyboard in Resources */,
+				829227A21BA88E3E004B1064 /* Animals.json in Resources */,
 				829227711BA776DA004B1064 /* Assets.xcassets in Resources */,
 				8292276F1BA776DA004B1064 /* Main.storyboard in Resources */,
 			);
